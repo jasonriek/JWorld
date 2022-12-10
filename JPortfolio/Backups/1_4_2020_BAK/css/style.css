@@ -1,0 +1,65 @@
+body
+{
+    background-color: #333333;
+	margin: 0;
+	padding: 0;
+	color: #efefef;
+}
+
+.JPortfolio_Container
+{
+	height: 250px;
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;
+
+}
+
+.JPortfolio_Side_Container
+{
+	text-align: center;
+	width: 100%;
+	height: 576px;
+
+}
+
+.JWorld_Container 
+{
+	margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+#explorer-table 
+{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  color: #000000;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#explorer-table td, #explorer-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 50%;
+  background-color: #ffffff;
+}
+
+
+#explorer-table th {
+
+  background-color: #000000;
+  color: white;
+}
+
+canvas
+{
+	margin-bottom: 0;
+	bottom: 0;
+}
+

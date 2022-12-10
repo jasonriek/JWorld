@@ -1,0 +1,172 @@
+body
+{
+  background-color: #333333;
+	margin: 0;
+	padding: 0;
+	color: #efefef;
+}
+
+.JPortfolio_Container
+{
+	height: 150px;
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: #000000;*/
+}
+
+.JPortfolio_Side_Container
+{
+	text-align: center;
+	width: 100%;
+	height: 576px;
+
+}
+
+.JWorld_Container 
+{
+	  margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ 
+#explorer-table 
+{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  color: #000000;
+
+  width: 100%;
+}
+
+#explorer-table td, #explorer-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #ffffff;
+  width: 50%;
+}
+
+
+#explorer-table th {
+
+  background-color: #000000;
+  color: white;
+}
+
+.icon
+{
+  color: #efefef;
+    margin-left: 10px;
+    width:70px;
+    height:70px;
+    background-color:rgba(0,0,0, 1);
+    position:relative;
+    border-radius: 200px;
+    
+}
+button:focus {outline:0;}
+
+.playicon
+{
+    margin-top:13px;
+    margin-left:16px;
+    margin-bottom:10px;
+    border-left:32px solid #fff;
+    border-right:18px dashed transparent;
+    border-top:18px dashed transparent;
+    border-bottom:18px dashed transparent;
+}
+
+.pauseicon
+{
+    margin-top:2px;
+    margin-left:14px;
+    border-left:9px solid #fff;
+    border-right:9px solid #fff;
+    width: 10px;
+    height: 35px;
+}
+
+canvas
+{
+	margin-bottom: 0;
+	bottom: 0;
+}
+
+/* MODAL */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #333333;
+  color: white;
+}
+
+.modal-body {padding: 2px 2px;}
+
+.modal-body-audio-settings {padding: 16px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}

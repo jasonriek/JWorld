@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>JPortfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    
+    <!-- Where JWorld Happens -->
+    <button id="tile_settings_button" style="vertical-align: bottom;"> Tile Settings </button>
+    <button id="audio_settings_button" style="vertical-align: bottom;"> Audio Settings </button>
+    <div class="JWorld_Container">
+ 
+        <canvas id="JWorld" style="border:1px solid #666666;"></canvas>
+        
+    </div>
+    
+    <div class ="JPortfolio_Container">
+  
+        <!-- Trigger/Open The Modal -->
+        
+    </div>
+
+<!-- Tile Settings -->
+<div id="TileSettings" class="modal">
+
+    <!-- Tile Settings content -->
+    <div class="modal-content" style="background-color: #000000;">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Tile View Settings</h2>
+        </div>
+        <div class="modal-body">
+        <table id="explorer-table">
+            <tr>
+                <th>Attribute</th><th>Value</th>
+            </tr>
+            <tr>
+                <td>Grid Index</td><td><span id="explorer_index"></span></td>
+            </tr>
+            <tr>
+                <td>Canvas Position</td><td><span id="explorer_canvas_pos"></span></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" onclick="activateGrid();" style="width: 50%;">Grid</button>
+                </td>
+                <td>
+                    <button type="button" onclick="activateGridNumber();" style="width: 50%;"">Tile Data</button>
+                </td>
+            </tr>
+
+        </table>
+        <span id="something">Get this here!</span>
+        </div>
+    
+    </div>
+  
+  </div>
+<!-- Audio Settings -->
+<div id="AudioSettings" class="modal">
+    <!-- Audio Settings Content -->
+    <div class="modal-content" style="background-color: #000000;">
+    <div class="modal-header">
+
+            <span class="close">&times;</span>
+            <h2>Audio Settings</h2>
+    </div>
+    <div class="modal-body-audio-settings">
+        <h1 id="event_test"></h1>
+        <span id="pause_play"></span>
+    </div>
+</div>
+
+</div>
+
+    <script src="js/Modal.js"></script>
+    <script src="js/Sprite.js"></script>
+    <script src="js/Characters.js"></script>
+    <script src="js/Events.js"></script>
+    <script src="js/JWorld.js"></script>
+    <script src="js/Controls.js"></script>
+</body>
+</html>

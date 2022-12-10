@@ -1,0 +1,45 @@
+body
+{
+    background-color: #333333;
+	margin 0;
+	padding: 0;
+}
+
+
+.JPortfolio_Container
+{
+	height: 250px;
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+}
+
+.JPortfolio_Side_Container
+{
+	height: 512px;
+
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+}
+
+.JWorld_Container 
+{
+	margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+  
+  
+canvas
+{
+	margin-bottom: 0;
+	bottom: 0;
+}
